@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# YOLO / Ultralytics
+runs/
+datasets/
+yolov8n.pt
+yolo11n.pt
+yolo11n-pose.pt
+*.pt
+*.onnx
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Virtual Env
+venv/
+env/
+.env

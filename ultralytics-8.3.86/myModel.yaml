@@ -1,0 +1,14 @@
+# 自定义模型文件
+
+# 数据集文件夹datasets所在的路径
+path: . #datasets root dir
+#已datasets为根目录的参与模型训练的图像文件夹
+train: images/train 
+val: images/val
+test: # test images (optional)
+
+# 自训练模型可识别的物体类别，以标签网站的物体标签先后顺序 依次对names 字典赋值
+names:
+  0: mingren
+  1: daitu
+  
