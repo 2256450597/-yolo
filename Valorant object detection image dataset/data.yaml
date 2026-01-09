@@ -1,0 +1,15 @@
+# 自定义模型配置文件
+
+# 数据集文件夹datasets所在的路径
+path: C:/Users/Leo/Desktop/ultralytics-8.3.86/Valorant object detection image dataset/labeled data # dataset root dir
+
+# 以datasets为根目录的参与模型训练的图像文件夹
+train: C:/Users/Leo/Desktop/ultralytics-8.3.86/Valorant object detection image dataset/labeled data/images/train # train images (relative to 'path') 128 images
+val: C:/Users/Leo/Desktop/ultralytics-8.3.86/Valorant object detection image dataset/labeled data/images/val # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# 自训练模型可以识别的物体类别 以标签网站的物体标签先后顺序 依次对name字典赋值即可
+
+nc: 4
+names: ['crosshair', 'enemy', 'enemyhead', 'teammate']
+
