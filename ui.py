@@ -254,7 +254,7 @@ class mainwindow(QMainWindow, Ui_MainWindow):
         #先自行设置一个conf的初始值
         self.model_conf = 0.25
         #在指定位置显示初始的conf值
-        self.label_conf.setText(f'模型置信度阈值：0.25')
+        self.label_conf.setText(f'模型置信度阈值:0.25')
         #滑动条在滑动的时候，会产生数值变化信号，将这个信号和conf修改函数进行绑定
         self.horizontalSlider_model.valueChanged.connect(self.conf_value_change)
  
